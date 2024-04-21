@@ -24,6 +24,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import NotificationComponent from "./components/notificationComp/NotificationComponent";
 import SearchResults from "./pages/search/SearchResults";
 
+
 function App() {
   return (
     <>

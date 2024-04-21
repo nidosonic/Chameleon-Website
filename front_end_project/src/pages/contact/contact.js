@@ -6,14 +6,14 @@ import Email from "./image/email.png";
 import { notifyWelcome } from "../../components/notificationComp/NotificationComponent";
 
 class Contact extends Component {
-  componentDidMount () {
+  componentDidMount() {
     // Display a welcome message when the component mounts
     notifyWelcome(
       "Make sure to contact us only on working days 9:00 AM onwards!",
     );
   }
 
-  render () {
+  render() {
     return (
       // These Classes sets the background color to a specific shade of light blue with the hex code #deece3 (bg-[#deece3]).
       <div className="bg-[#deece3]">
@@ -86,7 +86,7 @@ class Contact extends Component {
             </div>
             {/* These Classes combination styles a paragraph element with centered text, a green background (#00b165), padding, rounded corners, a semi-bold font, varying text sizes for different screen sizes, and a drop shadow. It is designed for use within a paragraph of text. */}
             <button className={`${styles.contact_item_btn} text-center bg-[#00b165] py-2 px-10 text-white mt-2 rounded-[15px] font-semibold text-lg m-0 leading-[1] shadow-md md:text-[18px] text-[17px] `}>
-              Start Chat
+              <a href="/Chatbot">Start Chat</a>
             </button>
           </div>
         </div>

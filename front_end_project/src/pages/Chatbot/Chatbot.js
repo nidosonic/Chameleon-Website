@@ -168,8 +168,14 @@ class Chatbot extends Component {
     }
 
     render () {
+        console.log("Chatbot rendering");
         return (
-            <div className="chatbot">
+            
+            <div>
+                
+                <p>this is a test</p>
+            {/* <div className="chatbot"> */}
+                
                 <button className="chatbot-toggler">
                     <span className="material-symbols-outlined">more_horiz</span>
                     <span className="material-symbols-outlined">arrow_back</span>
@@ -210,6 +216,7 @@ class Chatbot extends Component {
                     <span id="send-btn" className="material-symbols-rounded">send</span>
                 </div>
             </div>
+            // </div>
         );
     }
 }

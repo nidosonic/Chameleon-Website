@@ -1,0 +1,97 @@
+.common_chat-wrapper {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    font-size: 12px;
+    float: left;
+    border: 0px;
+}
+
+.common_chat-inner {
+    width: 100%;
+    height: 100%;
+}
+
+.common_chat-main {
+    position: relative;
+    height: calc(100% - 190px);
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.common_chat-main-header {
+    padding-top: 14px;
+    text-align: center;
+}
+
+.common_chat-main-header .el-button {
+    padding: 0px;
+    font-size: 12px;
+    color: #8d8d8d;
+}
+
+.common_chat-main-content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.common_chat-main-content > .inner {
+    padding-bottom: 20px;
+}
+
+.common_chat-main-content .item {
+    clear: both;
+    overflow: hidden;
+}
+
+.common_chat-main-content .sys {
+    color: #b0b0b0;
+    font-size: 12px;
+    text-align: center;
+}
+
+.common_chat-main-content .receiver,
+.common_chat-main-content .sender {
+    margin-top: 18px;
+    font-size: 12px;
+}
+
+.common_chat-main-content .receiver .avatar-wrapper,
+.common_chat-main-content .sender .avatar-wrapper {
+    float: left;
+}
+
+.common_chat-main-content .receiver .avatar-wrapper .kf-img,
+.common_chat-main-content .sender .avatar-wrapper .kf-img {
+    width: 40px;
+    height: 40px;
+}
+
+.common_chat-main-content .receiver .info-wrapper,
+.common_chat-main-content .sender .info-wrapper {
+    position: relative;
+    text-align: left;
+    font-size: 12px;
+}
+
+.common_chat-main-content .receiver .info-wrapper .item-content,
+.common_chat-main-content .sender .info-wrapper .item-content {
+    position: relative;
+    max-width: 330px;
+    color: #3e3e3e;
+    font-size: 13px;
+    border-radius: 3px;
+}
+
+.common_chat-main-content .receiver .info-wrapper .item-content .text,
+.common_chat-main-content .sender .info-wrapper .item-content .text {
+    line-height: 1.8;
+    white-space: normal;
+    word-wrap: break-word;
+    word-break: break-all;
+    padding: 10px 12px;
+}
+
+/* 其他样式省略 */
